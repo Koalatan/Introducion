@@ -1,0 +1,2 @@
+border系
+text-primary（結局使いませんでした。。）

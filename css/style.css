@@ -1,0 +1,157 @@
+body{
+	font-family: 'Literata', serif;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin: 0;
+	background-color: #2FCDB4;
+	color:#2FCDB4;
+}
+
+header {
+	text-align: center;
+	color: #2FCDB4;
+	background-color:#F5F5F5;
+	padding-bottom:15px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+nav {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+li{
+	display: inline-block;
+	margin-left:20px;
+	font-size:20px;
+}
+
+a {
+	color: #2FCDB4;
+	display: inline;
+}
+header.list li {
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top:5px;
+	margin-right:20px;
+	border: 2px solid #2FCDB4;
+	border-radius: 4px;
+}
+
+header.list a:hover {
+	background-color: #2FCDB4;
+	color: #F5F5F5;
+}
+
+header.list a {
+	display: block;
+	text-decoration: none;
+	color: #2FCDB4;
+	padding:6px 10px;
+}
+
+h1 {
+	font-size: 80px;
+	margin-bottom:20px;
+	margin-top:0;
+}
+
+h2{
+	font-size: 35px;
+	padding: 30px;
+	margin: 0;
+}
+
+p{
+	font-size:20px;
+	margin-left: 50px;
+}
+
+article{
+	background-color: #F5F5F5;
+}
+
+table{
+	font-size: 20px;
+}
+
+.reversecolor{
+	background-color: #2FCDB4;
+	color:#FFFFFF;
+}
+
+label {
+	margin-left:30px;
+}
+
+ /* TOP 用   */
+div.Notice {
+	width: 55%;
+	display: inline-block;
+}
+div.Notice table{
+	width:100%;
+	background-color:#2FCDB4;
+	color:#FFFFFF;
+	padding: 50px 60px 55px 30px;
+}
+
+div.Notice td{
+		border-bottom: 2px solid #FFFFFF;
+
+}
+
+div.weather{
+	width:45%;
+	float: right;
+}
+
+div.weather table{
+	width: 100%;
+	padding: 50px 60px 55px 30px;
+}
+
+div.weather td, div.weather th{
+	border-bottom: 2px solid #2FCDB4;
+	border-left: 2px solid #2FCDB4;
+}
+
+img {
+	width: 100%;
+	height: 750px;
+}
+
+/* commodity用 css */
+
+div.contents h3{
+	font-size:25px;
+	margin-left: 60px;
+}
+
+div.contents ul{
+	text-align:center;
+	padding:0;
+}
+
+div.contents li{
+	width: 20%;
+}
+div.contents img{
+	height:300px;
+	display: inline-block;
+}
+
+/* company用　css*/
+.borderbtm{
+	border-bottom: 2px solid #2FCDB4;
+	padding-bottom:2px;
+	margin-bottom:20px;
+}
+
+.history{
+	border:0 !important;
+	border-bottom:1px dotted #2FCDB4 !important;
+}
